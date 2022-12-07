@@ -1,1 +1,10 @@
+terraform init
 
+terraform validate
+
+terraform plan -out FILE_NAME
+terraform plan -out=FILE_NAME
+
+terraform apply FILE_NAME
+
+terraform destroy -auto-approve
